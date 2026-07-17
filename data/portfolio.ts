@@ -1,29 +1,36 @@
 export const personalInfo = {
   name: "Dr. Sourav Bhadwal",
-  title: "Geographer & Remote Sensing Researcher",
-  subtitle: "Ph.D. (Geography) | GIS & Urban Sustainability Expert",
+  title: "Geographer & ISRO-Junior Research Fellow",
+  subtitle: "Ph.D. (Geography) | IIT (BHU), Varanasi | Remote Sensing & GIS Expert",
   email: "bhadwalsourav@gmail.com",
   emailAlt: "sourav.jrf.civ26@itbhu.ac.in",
   phone: "+91-7780804912",
   currentAddress: "SLCR Lab, Department of Civil Engineering, IIT-BHU, Varanasi, 221005",
   permanentAddress: "V.P.O Forelain East Ghatti, Tehsil and District Kathua, Jammu & Kashmir 184143",
   objective:
-    "To achieve success in all sphere of profession by holding a position of responsibility in my career accepting every challenge and to serve the humanity through my abilities.",
+    "To leverage advanced geospatial technologies and remote sensing methodologies in addressing pressing environmental challenges from urban green space assessment and carbon sequestration to water quality monitoring using multi-source satellite data, contributing to evidence-based policy decisions and sustainable resource management.",
   researchDomain:
-    "Application of remote sensing and GIS in urban sustainability, ecosystem services, and environmental monitoring, with a focus on urban green spaces, green infrastructure, carbon sequestration, urban heat islands, land use and land cover dynamics, and climate change adaptation.",
+    "Holding a Doctorate in Geography from the Central University of Haryana, with expertise in urban green spaces, green infrastructure, carbon sequestration, urban heat island dynamics, and climate change adaptation. Currently serving as an ISRO-Junior Research Fellow at IIT (BHU), Varanasi, developing algorithms for water quality monitoring using ground-based instrumentation, UAV-mounted optical sensors, and multi-source satellite data.",
+  social: {
+    linkedin: "https://www.linkedin.com/in/dr-sourav-bhadwal-b282a6167",
+    github: "https://github.com/souravbhadwal9",
+    googleScholar: "https://scholar.google.com/citations?hl=en&user=kNi1WrQAAAAJ",
+    researchGate: "https://www.researchgate.net/profile/Sourav-Bhadwal",
+    orcid: "https://orcid.org/0000-0002-9555-7957",
+  },
 };
 
 export const stats = [
-  { value: "14+", label: "Publications" },
+  { value: "9", label: "Publications" },
   { value: "2", label: "Book Chapters" },
   { value: "14+", label: "Conferences" },
-  { value: "8.0", label: "Top Impact Factor" },
+  { value: "7.5", label: "Top Impact Factor" },
 ];
 
 export const education = [
   {
     degree: "Ph.D. in Geography",
-    year: "2025",
+    year: "2020–2025",
     institution: "Central University of Haryana",
     details:
       "Assessment and Evaluation of Green Space for Sustainable Urban Development: A Case Study of NCT Delhi",
@@ -32,15 +39,15 @@ export const education = [
   },
   {
     degree: "PG Diploma in Geoinformatics",
-    year: "2025",
+    year: "2025–2026",
     institution: "Indira Gandhi National Open University (IGNOU)",
-    details: "Pursuing",
+    details: "Awaiting Result",
     grade: null,
     icon: "🗺️",
   },
   {
     degree: "Master of Science (Geography)",
-    year: "2019",
+    year: "2017–2019",
     institution: "Central University of Haryana",
     details: null,
     grade: "First Division",
@@ -48,7 +55,7 @@ export const education = [
   },
   {
     degree: "Bachelor of Science",
-    year: "2017",
+    year: "2014–2017",
     institution: "Govt. Degree College, Kathua (Jammu University)",
     details: null,
     grade: "First Division",
@@ -140,10 +147,10 @@ export const skills = {
 export const experience = [
   {
     role: "Junior Research Fellow (JRF)",
-    period: "2026 – Present",
+    period: "Jan 2026 – Present",
     project:
-      "Development of Algorithms for Water Quality Monitoring using Ground Instrumentation and Optical Sensors onboard Unmanned Airborne Vehicle and Satellite Data",
-    organization: "Department of Civil Engineering, IIT-BHU, Varanasi",
+      "Development of Algorithms for Water Quality Monitoring Using Ground Instrumentation and Optical Sensors Onboard Unmanned Aerial Vehicles (UAVs) and Satellite Data",
+    organization: "Department of Civil Engineering, Indian Institute of Technology (BHU), Varanasi, Uttar Pradesh",
     fileNo: "",
     fundedBy: "ISRO",
     color: "emerald",
@@ -151,7 +158,7 @@ export const experience = [
   },
   {
     role: "Research Assistant",
-    period: "2023 – 2025",
+    period: "May 2024 – Jul 2025",
     project: "Water Management in South-Western Haryana",
     organization: "Dept. of Geography, School of Basic Sciences, Central University of Haryana",
     fileNo: "ICSSR/RPD/MJ/2023-24/G/49",
@@ -160,7 +167,7 @@ export const experience = [
   },
   {
     role: "Project Assistant",
-    period: "",
+    period: "Jan 2024 – Mar 2024",
     project:
       "Remote Sensing and GIS Based Modelling of Land Degradation for Agricultural Sustainability in Sultanpur District, Uttar Pradesh",
     organization: "Dept. of Geography, Rana Pratap P.G. College, Sultanpur, U.P.",
@@ -170,7 +177,7 @@ export const experience = [
   },
   {
     role: "Project Assistant",
-    period: "",
+    period: "Jan 2023 – Jun 2023",
     project: "Skill Formation and Employability: A Study of Youth in India",
     organization: "Dept. of Teacher Education, School of Education, Central University of Haryana",
     fileNo: "Project Code No. P0040",
@@ -202,30 +209,12 @@ export const publications: {
 } = {
   submitted: [
     {
-      authors: "Sourav Bhadwal, Syed Irtiza Majid, & Manish Kumar",
-      year: "2026",
-      title:
-        "Quantification and Mapping of Carbon Storage and Sequestration Ecosystem Service in Urban Parks of NCT Delhi: Geo-Environmental Determinants and Sustainability Implications",
-      journal: "Geography and Sustainability",
-      impactFactor: 8.0,
-      status: "Submitted",
-    },
-    {
       authors: "Sourav Bhadwal, & Manish Kumar",
       year: "2026",
       title:
         "Application of GBM-based game theory for evaluating the impact of green infrastructure on air quality in NCT Delhi, India",
       journal: "Water, Air, & Soil Pollution",
-      impactFactor: 3.0,
-      status: "Under Review",
-    },
-    {
-      authors: "Sourav Bhadwal, Manish Kumar, Yining Wang, & Ryo Kohsaka",
-      year: "2026",
-      title:
-        "Modelling Urban Environmental Stress and Green Space Vulnerability in India's Capital City Using a DPSIR-Integrated Predictive Simulation Framework",
-      journal: "Ecological Indicators",
-      impactFactor: 7.4,
+      impactFactor: 3.5,
       status: "Under Review",
     },
     {
@@ -234,7 +223,7 @@ export const publications: {
       title:
         "A novel GIS-based approach for modelling soil erosion susceptibility using integrated empirical and machine learning models",
       journal: "Environmental, Development and Sustainability",
-      impactFactor: 4.2,
+      impactFactor: 4.9,
       jcr: "Q1",
       status: "Under Review",
     },
@@ -244,8 +233,35 @@ export const publications: {
       title:
         "Hydrochemical Analysis and Associated Health Risk Assessment of Groundwater Quality of Hisar District of Haryana, India",
       journal: "CLEAN – Soil, Air, Water",
-      impactFactor: 1.4,
+      impactFactor: 2.0,
       status: "Under Review",
+    },
+    {
+      authors: "Sourav Bhadwal, Manish Kumar, Yining Wang, & Ryo Kohsaka",
+      year: "2026",
+      title:
+        "Modelling Urban Environmental Stress and Green Space Vulnerability in India's Capital City Using a DPSIR-Integrated Predictive Simulation Framework",
+      journal: "Sustainable Cities and Society",
+      impactFactor: 13.3,
+      status: "Submitted",
+    },
+    {
+      authors: "Anamika Joshi, Manish Kumar, Syed Irtiza Majid, Sourav Bhadwal, Akash Tiwari",
+      year: "2026",
+      title:
+        "Assessing the Evolution of Rainfall Trends in India through Historical Analysis, Forecasting, and Comparison with the CMIP-6 SSP585 Scenario",
+      journal: "Journal of the Indian Society of Remote Sensing",
+      impactFactor: 2.2,
+      status: "Submitted",
+    },
+    {
+      authors: "Sourav Bhadwal, Syed Irtiza Majid, & Manish Kumar",
+      year: "2026",
+      title:
+        "Quantification and Mapping of Carbon Storage and Sequestration Ecosystem Service in Urban Parks of NCT Delhi: Geo-Environmental Determinants and Sustainability Implications",
+      journal: "Journal of Applied Ecology",
+      impactFactor: 4.8,
+      status: "Submitted",
     },
   ],
   published: [
@@ -256,7 +272,7 @@ export const publications: {
         "Role of Urban Green Space in Regulating Land Surface Temperature in NCT Delhi using Explainable Artificial Intelligence",
       journal: "Urban Climate",
       volume: "65 (2026): 102736",
-      impactFactor: 6.9,
+      impactFactor: 7.5,
       jcr: "Q1",
       doi: "https://doi.org/10.1016/j.uclim.2025.102736",
     },
@@ -267,7 +283,7 @@ export const publications: {
         "Groundwater Quality Assessment for Irrigation and Health in Southwestern Haryana Using Hydrochemical and GIS Methods",
       journal: "Water Environment Research",
       volume: "98(3): e70340",
-      impactFactor: 1.9,
+      impactFactor: 2.8,
       doi: "https://doi.org/10.1002/wer.70340",
     },
     {
@@ -277,7 +293,7 @@ export const publications: {
         "Behavioral assessment and modelling of land degradation using random forest regression models and SHAP-based Game theory",
       journal: "European Journal of Soil Science",
       volume: "76(6)",
-      impactFactor: 3.8,
+      impactFactor: 4.3,
       jcr: "Q1",
       doi: "https://doi.org/10.1111/ejss.70224",
     },
@@ -297,7 +313,7 @@ export const publications: {
         "Delineation of groundwater potential zones of India using GIS based Fuzzy-AHP techniques",
       journal: "Environmental and Sustainability Indicators",
       volume: "28, 100932",
-      impactFactor: 5.6,
+      impactFactor: 5.5,
       jcr: "Q1",
       doi: "https://doi.org/10.1016/j.indic.2025.100932",
     },
@@ -320,7 +336,7 @@ export const publications: {
         "Integrated spatial analysis of forest fire susceptibility in the Indian Western Himalayas (IWH) using remote sensing and GIS-based fuzzy AHP approach",
       journal: "Remote Sensing",
       volume: "15, no. 19: 4701",
-      impactFactor: 4.1,
+      impactFactor: 4.3,
       jcr: "Q1",
       doi: "https://doi.org/10.3390/rs15194701",
     },
@@ -332,7 +348,7 @@ export const publications: {
         "Assessment and Mapping of Riverine Flood Susceptibility (RFS) in India through Coupled Multicriteria Decision Making Models and Geospatial Techniques",
       journal: "Water",
       volume: "15, no. 22: 3918",
-      impactFactor: 3.0,
+      impactFactor: 3.5,
       jcr: "Q2",
       doi: "https://doi.org/10.3390/w15223918",
     },
@@ -344,7 +360,7 @@ export const publications: {
         "Unravelling the Role of Socio-Physical Drivers for Potential Built-up Site Selection in the Kumaun Himalayas Using GIS-Based Fuzzy-AHP and Machine Learning",
       journal: "Journal of Settlements and Spatial Planning",
       volume: "vol. 15, no. 1 (2024) 23-38",
-      impactFactor: 0.7,
+      impactFactor: 0.3,
       jcr: "Q3",
       doi: "https://doi.org/10.24193/JSSP.2024.1.03",
     },

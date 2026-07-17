@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ExternalLink, BookMarked, FileCheck, BookOpen } from "lucide-react";
+import { ExternalLink, FileCheck, BookOpen, BookMarked } from "lucide-react";
 import { publications, type Publication } from "@/data/portfolio";
 
 type Tab = "published" | "submitted" | "books";

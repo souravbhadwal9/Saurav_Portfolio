@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Mail, ChevronDown, Star } from "lucide-react";
+import { MapPin, Mail, ChevronDown, Star, Download } from "lucide-react";
 import { personalInfo, stats } from "@/data/portfolio";
 
 const fadeUp = (delay = 0) => ({
@@ -59,6 +59,15 @@ export default function Hero() {
                 className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600
                   text-white font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-emerald-500/30 text-sm">
                 <Star size={16} /> View Publications
+              </a>
+              <a
+                href="/Dr_Sourav_CV_2026.pdf"
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/15
+                  border border-emerald-500/50 hover:border-emerald-400/80 text-emerald-400 hover:text-emerald-300
+                  font-semibold rounded-xl transition-all duration-200 text-sm shadow-sm hover:shadow-emerald-500/20"
+              >
+                <Download size={16} /> Download CV
               </a>
               <a href="#contact"
                 className="inline-flex items-center gap-2 px-6 py-3 border border-white/15 hover:border-emerald-500/40
@@ -126,7 +135,7 @@ export default function Hero() {
               <div className="text-center mb-6">
                 <h2 className="text-xl font-bold text-white">{personalInfo.name}</h2>
                 <p className="text-emerald-400 text-sm font-medium mt-1">Geographer · Researcher</p>
-                <p className="text-slate-500 text-xs mt-1">Central University of Haryana · IIT-BHU</p>
+                <p className="text-slate-500 text-xs mt-1">Indian Institute of Technology (BHU), Varanasi</p>
               </div>
 
               {/* Stats grid */}

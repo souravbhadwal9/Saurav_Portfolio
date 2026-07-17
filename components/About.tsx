@@ -19,6 +19,9 @@ const DOMAIN_TAGS = [
   "LULC Dynamics",
   "Climate Change Adaptation",
   "Ecosystem Services",
+  "Water Quality Monitoring",
+  "UAV Remote Sensing",
+  "Satellite Data Analysis",
   "Environmental Monitoring",
 ];
 

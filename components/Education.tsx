@@ -62,7 +62,7 @@ export default function Education() {
                       <p className="text-sm text-slate-400">{edu.institution}</p>
                     </div>
 
-                    {edu.details && edu.details !== "Pursuing" && (
+                    {edu.details && edu.details !== "Pursuing" && edu.details !== "Awaiting Result" && (
                       <div className="mt-3 p-3 rounded-xl bg-emerald-500/5 border border-emerald-500/15">
                         <p className="text-xs text-slate-300 leading-relaxed italic">
                           <span className="text-emerald-400 font-semibold not-italic">Thesis: </span>
@@ -71,10 +71,10 @@ export default function Education() {
                       </div>
                     )}
 
-                    {edu.details === "Pursuing" && (
+                    {(edu.details === "Pursuing" || edu.details === "Awaiting Result") && (
                       <span className="inline-flex items-center gap-1 text-xs font-medium text-teal-400 bg-teal-500/10 border border-teal-500/20 px-2 py-0.5 rounded-full mt-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-                        Pursuing
+                        {edu.details}
                       </span>
                     )}
 
