@@ -250,6 +250,18 @@ html.light .skill-chip:hover {
 }
 html.light .skill-chip-dot { background-color: #94a3b8 !important; }
 
+/* Hero profile card — solid background to block globe glow bleed */
+.hero-profile-card {
+  background: rgba(8, 14, 28, 0.90);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(16, 185, 129, 0.18);
+}
+html.light .hero-profile-card {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.10) !important;
+}
+
 /* Strip pills in light mode */
 html.light .skill-strip-pill {
   background-color: rgba(0,0,0,0.04) !important;

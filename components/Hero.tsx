@@ -105,7 +105,7 @@ export default function Hero() {
           >
             <div className="absolute -inset-px rounded-3xl bg-gradient-to-br from-emerald-500/30 via-teal-500/20 to-indigo-500/20 blur-sm" />
 
-            <div className="relative glass-card rounded-3xl p-8 glow-emerald">
+            <div className="relative hero-profile-card rounded-3xl p-8 glow-emerald">
               {/* Profile photo */}
               <div className="flex justify-center mb-6">
                 <div className="relative">
